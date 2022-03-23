@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>	
+
+<title>Website</title>	
+
+<style>
+body {color: White; background-color: #333333;}
+div.c1 {text-align: center; padding: 70px 0;}
+
+input[type=text] { width: 25%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+
+select {width: 5%; background-color: white; color: black; padding: 10px; margin: 8px 0 8px 0 ; border-radius: 4px;}
+
+button {width: 25%; background-color: #4CAF50; color: white; padding: 14px 20px; margin: 8px 0; border-radius: 4px; cursor: pointer;}
+
+</style>
+
+</head>
+<body>
+<div class="c1">
+<h1> Index Replication </h1>
+The model is loaded successfully.
+<br><br>
+
+<form action="/load" method="post">
+<label for="cars">Choose number of stocks to show:</label>
+<select name="n" id="n">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+</select><br><br>
+<button name="predict" type="submit">Continue</button>
+</form>
+
+
+</div>
+</body>
+</html>
